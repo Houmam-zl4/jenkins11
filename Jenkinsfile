@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Cloner le dépôt') {
             steps {
-                git 'https://github.com/Houmam-zl4/jenkins11.git'
+                git branch: 'main', url: 'https://github.com/Houmam-zl4/jenkins11.git'
             }
         }
 
